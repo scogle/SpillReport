@@ -85,7 +85,11 @@ def runScrape():
 				spill['LONG'] = latlong.split('/')[1]
 
 				writeRecord(spill)
-				tweet(spill)
+				
+				##
+				## Put any code you want to perform on newly reported
+				## spills here!
+				##
 			
 			except:
 				pass
