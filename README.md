@@ -14,9 +14,9 @@ Spill Report relies on several Python libraries to get the data:
 
 #### Using
 
-First create the database in `\data` by running `sqlite3 spillLog.db < create.sql`
+Make sure spillLog.db exists in  `\data` if not, create it by running `sqlite3 spillLog.db < create.sql`
 
-Test that `bs4` and `requests` are installed by running
+Test that `bs4` and `requests` are installed by running:
 
 ```
 $ python
