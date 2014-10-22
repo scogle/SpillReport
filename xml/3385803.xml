@@ -1,0 +1,605 @@
+<_x0034_00639576>
+  <xs:schema id="_x0034_00639576" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="_x0034_00639576" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Form">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="doc_num" type="xs:int" minOccurs="0" />
+                <xs:element name="form_num" type="xs:string" minOccurs="0" />
+                <xs:element name="receive_date" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="operator_num" type="xs:int" minOccurs="0" />
+                <xs:element name="operator_num_suff" type="xs:string" minOccurs="0" />
+                <xs:element name="company_name" type="xs:string" minOccurs="0" />
+                <xs:element name="address" type="xs:string" minOccurs="0" />
+                <xs:element name="city" type="xs:string" minOccurs="0" />
+                <xs:element name="state" type="xs:string" minOccurs="0" />
+                <xs:element name="zip" type="xs:string" minOccurs="0" />
+                <xs:element name="first_name" type="xs:string" minOccurs="0" />
+                <xs:element name="last_name" type="xs:string" minOccurs="0" />
+                <xs:element name="area_code" type="xs:short" minOccurs="0" />
+                <xs:element name="phone_num" type="xs:string" minOccurs="0" />
+                <xs:element name="fax_area_code" type="xs:short" minOccurs="0" />
+                <xs:element name="fax_num" type="xs:string" minOccurs="0" />
+                <xs:element name="submit_name" type="xs:string" minOccurs="0" />
+                <xs:element name="submit_title" type="xs:string" minOccurs="0" />
+                <xs:element name="submit_date" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="submit_signature" type="xs:string" minOccurs="0" />
+                <xs:element name="approv_name" type="xs:string" minOccurs="0" />
+                <xs:element name="approv_title" type="xs:string" minOccurs="0" />
+                <xs:element name="status_date" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="approv_signature" type="xs:string" minOccurs="0" />
+                <xs:element name="facility_id" type="xs:int" minOccurs="0" />
+                <xs:element name="project_num" type="xs:int" minOccurs="0" />
+                <xs:element name="status" type="xs:string" minOccurs="0" />
+                <xs:element name="user_name" type="xs:string" minOccurs="0" />
+                <xs:element name="data_entry_date" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="data_entry_op" type="xs:string" minOccurs="0" />
+                <xs:element name="email" type="xs:string" minOccurs="0" />
+                <xs:element name="version" type="xs:decimal" minOccurs="0" />
+                <xs:element name="is_cdp" type="xs:boolean" minOccurs="0" />
+                <xs:element name="cdp_num" type="xs:int" minOccurs="0" />
+                <xs:element name="location_id" type="xs:int" minOccurs="0" />
+                <xs:element name="contact_email" type="xs:string" minOccurs="0" />
+                <xs:element name="exception" type="xs:string" minOccurs="0" />
+                <xs:element name="reason" type="xs:string" minOccurs="0" />
+                <xs:element name="last_user" type="xs:string" minOccurs="0" />
+                <xs:element name="last_update_user" type="xs:string" minOccurs="0" />
+                <xs:element name="last_update_date" type="xs:dateTime" minOccurs="0" />
+                <xs:element name="step" type="xs:int" minOccurs="0" />
+                <xs:element name="trkg_num" type="xs:int" minOccurs="0" />
+                <xs:element name="form19" minOccurs="0" maxOccurs="unbounded">
+                  <xs:annotation>
+                    <xs:appinfo>
+                      <msdata:Relationship name="form19_ix" msdata:parent="Form" msdata:child="form19" msdata:parentkey="doc_num" msdata:childkey="doc_num" />
+                    </xs:appinfo>
+                  </xs:annotation>
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="doc_num" type="xs:int" minOccurs="0" />
+                      <xs:element name="cogcc_rep" type="xs:string" minOccurs="0" />
+                      <xs:element name="incident_date" type="xs:dateTime" minOccurs="0" />
+                      <xs:element name="facility_type" type="xs:string" minOccurs="0" />
+                      <xs:element name="well_name" type="xs:string" minOccurs="0" />
+                      <xs:element name="well_num" type="xs:string" minOccurs="0" />
+                      <xs:element name="api_state_code" type="xs:string" minOccurs="0" />
+                      <xs:element name="county_code" type="xs:string" minOccurs="0" />
+                      <xs:element name="api_seq_num" type="xs:string" minOccurs="0" />
+                      <xs:element name="sidetrack_num" type="xs:string" minOccurs="0" />
+                      <xs:element name="material" type="xs:string" minOccurs="0" />
+                      <xs:element name="county" type="xs:string" minOccurs="0" />
+                      <xs:element name="field_name" type="xs:string" minOccurs="0" />
+                      <xs:element name="qtrqtr" type="xs:string" minOccurs="0" />
+                      <xs:element name="sec" type="xs:string" minOccurs="0" />
+                      <xs:element name="twp" type="xs:string" minOccurs="0" />
+                      <xs:element name="range" type="xs:string" minOccurs="0" />
+                      <xs:element name="meridian" type="xs:string" minOccurs="0" />
+                      <xs:element name="spill_vol" type="xs:int" minOccurs="0" />
+                      <xs:element name="recover_vol" type="xs:int" minOccurs="0" />
+                      <xs:element name="water_impact" type="xs:string" minOccurs="0" />
+                      <xs:element name="contained" type="xs:string" minOccurs="0" />
+                      <xs:element name="area" type="xs:int" minOccurs="0" />
+                      <xs:element name="area_unit" type="xs:string" minOccurs="0" />
+                      <xs:element name="vertical" type="xs:int" minOccurs="0" />
+                      <xs:element name="land_use" type="xs:string" minOccurs="0" />
+                      <xs:element name="weather" type="xs:string" minOccurs="0" />
+                      <xs:element name="vert_unit" type="xs:string" minOccurs="0" />
+                      <xs:element name="soil_desc" type="xs:string" minOccurs="0" />
+                      <xs:element name="surf_water" type="xs:float" minOccurs="0" />
+                      <xs:element name="wetlands" type="xs:float" minOccurs="0" />
+                      <xs:element name="shallow_depth" type="xs:float" minOccurs="0" />
+                      <xs:element name="buildings" type="xs:float" minOccurs="0" />
+                      <xs:element name="livestock" type="xs:float" minOccurs="0" />
+                      <xs:element name="water_wells" type="xs:float" minOccurs="0" />
+                      <xs:element name="spill_desc" type="xs:string" minOccurs="0" />
+                      <xs:element name="imm_response" type="xs:string" minOccurs="0" />
+                      <xs:element name="emer_pits" type="xs:string" minOccurs="0" />
+                      <xs:element name="extent" type="xs:string" minOccurs="0" />
+                      <xs:element name="proposed" type="xs:string" minOccurs="0" />
+                      <xs:element name="preventative" type="xs:string" minOccurs="0" />
+                      <xs:element name="facility_name" type="xs:string" minOccurs="0" />
+                      <xs:element name="facility_num" type="xs:string" minOccurs="0" />
+                      <xs:element name="facility_id" type="xs:int" minOccurs="0" />
+                      <xs:element name="trkg_num" type="xs:int" minOccurs="0" />
+                      <xs:element name="surface_water" type="xs:string" minOccurs="0" />
+                      <xs:element name="water_spill" type="xs:int" minOccurs="0" />
+                      <xs:element name="water_recov" type="xs:int" minOccurs="0" />
+                      <xs:element name="other_spill" type="xs:int" minOccurs="0" />
+                      <xs:element name="other_recov" type="xs:int" minOccurs="0" />
+                      <xs:element name="spill_type" type="xs:boolean" minOccurs="0" />
+                      <xs:element name="discovery_date" type="xs:dateTime" minOccurs="0" />
+                      <xs:element name="facility_type_other" type="xs:string" minOccurs="0" />
+                      <xs:element name="lat" type="xs:decimal" minOccurs="0" />
+                      <xs:element name="long" type="xs:decimal" minOccurs="0" />
+                      <xs:element name="city" type="xs:string" minOccurs="0" />
+                      <xs:element name="surface_owner" type="xs:string" minOccurs="0" />
+                      <xs:element name="surface_owner_other" type="xs:string" minOccurs="0" />
+                      <xs:element name="spill_oil" type="xs:boolean" minOccurs="0" />
+                      <xs:element name="spill_condensate" type="xs:boolean" minOccurs="0" />
+                      <xs:element name="spill_formation" type="xs:boolean" minOccurs="0" />
+                      <xs:element name="spill_drilling" type="xs:boolean" minOccurs="0" />
+                      <xs:element name="spill_frac" type="xs:boolean" minOccurs="0" />
+                      <xs:element name="spill_other" type="xs:boolean" minOccurs="0" />
+                      <xs:element name="spill_other2" type="xs:boolean" minOccurs="0" />
+                      <xs:element name="spill_other3" type="xs:boolean" minOccurs="0" />
+                      <xs:element name="spill_other_desc" type="xs:string" minOccurs="0" />
+                      <xs:element name="spill_other_desc2" type="xs:string" minOccurs="0" />
+                      <xs:element name="spill_other_desc3" type="xs:string" minOccurs="0" />
+                      <xs:element name="waters_state" type="xs:float" minOccurs="0" />
+                      <xs:element name="public_byway" type="xs:float" minOccurs="0" />
+                      <xs:element name="surf_water_supp" type="xs:float" minOccurs="0" />
+                      <xs:element name="site_remed" type="xs:boolean" minOccurs="0" />
+                      <xs:element name="_x0032_7_approved" type="xs:boolean" minOccurs="0" />
+                      <xs:element name="form27_doc_num" type="xs:int" minOccurs="0" />
+                      <xs:element name="report_type" type="xs:string" minOccurs="0" />
+                      <xs:element name="nonfacility" type="xs:boolean" minOccurs="0" />
+                      <xs:element name="land_use_other" type="xs:string" minOccurs="0" />
+                      <xs:element name="spill_oil_volume" type="xs:string" minOccurs="0" />
+                      <xs:element name="spill_condensate_volume" type="xs:string" minOccurs="0" />
+                      <xs:element name="spill_formation_volume" type="xs:string" minOccurs="0" />
+                      <xs:element name="spill_drilling_volume" type="xs:string" minOccurs="0" />
+                      <xs:element name="spill_frac_volume" type="xs:string" minOccurs="0" />
+                      <xs:element name="contained_morethan5" type="xs:boolean" minOccurs="0" />
+                      <xs:element name="init_spill_comment" type="xs:string" minOccurs="0" />
+                      <xs:element name="init_with_subsequent" type="xs:boolean" minOccurs="0" />
+                      <xs:element name="exist_ref_api" type="xs:boolean" minOccurs="0" />
+                      <xs:element name="exist_ref_facility_id" type="xs:boolean" minOccurs="0" />
+                      <xs:element name="no_exist_ref_facility_id" type="xs:boolean" minOccurs="0" />
+                      <xs:element name="spill_sludge_volume" type="xs:string" minOccurs="0" />
+                      <xs:element name="report_date" type="xs:dateTime" minOccurs="0" />
+                      <xs:element name="comment_req_closure" type="xs:string" minOccurs="0" />
+                      <xs:element name="other_ep_waste" type="xs:string" minOccurs="0" />
+                      <xs:element name="submit_date_form27" type="xs:dateTime" minOccurs="0" />
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element name="form_comm" minOccurs="0" maxOccurs="unbounded">
+                  <xs:annotation>
+                    <xs:appinfo>
+                      <msdata:Relationship name="form_comm_ix" msdata:parent="Form" msdata:child="form_comm" msdata:parentkey="doc_num" msdata:childkey="doc_num" />
+                    </xs:appinfo>
+                  </xs:annotation>
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="doc_num" type="xs:int" minOccurs="0" />
+                      <xs:element name="comment" type="xs:string" minOccurs="0" />
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element name="ogcc_comments" minOccurs="0" maxOccurs="unbounded">
+                  <xs:annotation>
+                    <xs:appinfo>
+                      <msdata:Relationship name="ogcc_comments_ix" msdata:parent="Form" msdata:child="ogcc_comments" msdata:parentkey="doc_num" msdata:childkey="doc_num" />
+                    </xs:appinfo>
+                  </xs:annotation>
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="doc_num" type="xs:int" minOccurs="0" />
+                      <xs:element name="comment" type="xs:string" minOccurs="0" />
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element name="eformcomment" minOccurs="0" maxOccurs="unbounded">
+                  <xs:annotation>
+                    <xs:appinfo>
+                      <msdata:Relationship name="eformcomment_ix" msdata:parent="Form" msdata:child="eformcomment" msdata:parentkey="doc_num" msdata:childkey="FormKey" />
+                    </xs:appinfo>
+                  </xs:annotation>
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="PKey" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+                      <xs:element name="FormKey" type="xs:int" minOccurs="0" />
+                      <xs:element name="CommentDate" type="xs:dateTime" minOccurs="0" />
+                      <xs:element name="CommentUser" type="xs:string" minOccurs="0" />
+                      <xs:element name="UserName" type="xs:string" minOccurs="0" />
+                      <xs:element name="eMail" type="xs:string" minOccurs="0" />
+                      <xs:element name="Phone" type="xs:string" minOccurs="0" />
+                      <xs:element name="IPAddress" type="xs:string" minOccurs="0" />
+                      <xs:element name="CommentType" type="xs:string" minOccurs="0" />
+                      <xs:element name="Approved" type="xs:boolean" minOccurs="0" />
+                      <xs:element name="ConditionApproval" type="xs:boolean" minOccurs="0" />
+                      <xs:element name="ReviewUser" type="xs:string" minOccurs="0" />
+                      <xs:element name="ReviewedDate" type="xs:dateTime" minOccurs="0" />
+                      <xs:element name="Subject" type="xs:string" minOccurs="0" />
+                      <xs:element name="Comment" type="xs:string" minOccurs="0" />
+                      <xs:element name="Comment_HTML" type="xs:string" minOccurs="0" />
+                      <xs:element name="CreateUser" type="xs:string" minOccurs="0" />
+                      <xs:element name="CreateDate" type="xs:dateTime" minOccurs="0" />
+                      <xs:element name="ItemNo" type="xs:int" minOccurs="0" />
+                      <xs:element name="COAType" type="xs:string" minOccurs="0" />
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element name="form_attach" minOccurs="0" maxOccurs="unbounded">
+                  <xs:annotation>
+                    <xs:appinfo>
+                      <msdata:Relationship name="form_attach_ix" msdata:parent="Form" msdata:child="form_attach" msdata:parentkey="doc_num" msdata:childkey="doc_num" />
+                    </xs:appinfo>
+                  </xs:annotation>
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="doc_num" type="xs:int" minOccurs="0" />
+                      <xs:element name="attach_doc_num" type="xs:int" minOccurs="0" />
+                      <xs:element name="name" type="xs:string" minOccurs="0" />
+                      <xs:element name="oper_check" type="xs:string" minOccurs="0" />
+                      <xs:element name="doc_desc" type="xs:string" minOccurs="0" />
+                      <xs:element name="file_size" type="xs:int" minOccurs="0" />
+                      <xs:element name="delete_file" type="xs:string" minOccurs="0" />
+                      <xs:element name="attach_class" type="xs:string" minOccurs="0" />
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element name="form_related" minOccurs="0" maxOccurs="unbounded">
+                  <xs:annotation>
+                    <xs:appinfo>
+                      <msdata:Relationship name="form_related_ix" msdata:parent="Form" msdata:child="form_related" msdata:parentkey="doc_num" msdata:childkey="doc_num" />
+                    </xs:appinfo>
+                  </xs:annotation>
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="doc_num" type="xs:int" minOccurs="0" />
+                      <xs:element name="related_num" type="xs:int" minOccurs="0" />
+                      <xs:element name="form_type" type="xs:string" minOccurs="0" />
+                      <xs:element name="memo" type="xs:string" minOccurs="0" />
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element name="bmp" minOccurs="0" maxOccurs="unbounded">
+                  <xs:annotation>
+                    <xs:appinfo>
+                      <msdata:Relationship name="bmp_ix" msdata:parent="Form" msdata:child="bmp" msdata:parentkey="doc_num" msdata:childkey="doc_num" />
+                    </xs:appinfo>
+                  </xs:annotation>
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="PKey" msdata:DataType="System.Guid, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" type="xs:string" minOccurs="0" />
+                      <xs:element name="doc_num" type="xs:int" minOccurs="0" />
+                      <xs:element name="sequence" type="xs:int" minOccurs="0" />
+                      <xs:element name="bmp_type" type="xs:string" minOccurs="0" />
+                      <xs:element name="bmp_comment" type="xs:string" minOccurs="0" />
+                      <xs:element name="ConditionApproval" type="xs:boolean" minOccurs="0" />
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element name="contact_log" minOccurs="0" maxOccurs="unbounded">
+                  <xs:annotation>
+                    <xs:appinfo>
+                      <msdata:Relationship name="contact_log_ix" msdata:parent="Form" msdata:child="contact_log" msdata:parentkey="doc_num" msdata:childkey="doc_num" />
+                    </xs:appinfo>
+                  </xs:annotation>
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="doc_num" type="xs:int" minOccurs="0" />
+                      <xs:element name="line_item" type="xs:short" minOccurs="0" />
+                      <xs:element name="detail_type" type="xs:string" minOccurs="0" />
+                      <xs:element name="notify_date" type="xs:dateTime" minOccurs="0" />
+                      <xs:element name="party" type="xs:string" minOccurs="0" />
+                      <xs:element name="contact" type="xs:string" minOccurs="0" />
+                      <xs:element name="details" type="xs:string" minOccurs="0" />
+                      <xs:element name="area_code" type="xs:short" minOccurs="0" />
+                      <xs:element name="phone_num" type="xs:string" minOccurs="0" />
+                      <xs:element name="email" type="xs:string" minOccurs="0" />
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element name="spillDet" minOccurs="0" maxOccurs="unbounded">
+                  <xs:annotation>
+                    <xs:appinfo>
+                      <msdata:Relationship name="spillDet_ix" msdata:parent="Form" msdata:child="spillDet" msdata:parentkey="doc_num" msdata:childkey="doc_num" />
+                    </xs:appinfo>
+                  </xs:annotation>
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="doc_num" type="xs:int" minOccurs="0" />
+                      <xs:element name="rpt_num" type="xs:int" minOccurs="0" />
+                      <xs:element name="rpt_date" type="xs:dateTime" minOccurs="0" />
+                      <xs:element name="withinberm" type="xs:int" minOccurs="0" />
+                      <xs:element name="wellpad" type="xs:int" minOccurs="0" />
+                      <xs:element name="emerpit" type="xs:int" minOccurs="0" />
+                      <xs:element name="soil" type="xs:boolean" minOccurs="0" />
+                      <xs:element name="groundwater" type="xs:boolean" minOccurs="0" />
+                      <xs:element name="surf_water" type="xs:boolean" minOccurs="0" />
+                      <xs:element name="dry_drain" type="xs:boolean" minOccurs="0" />
+                      <xs:element name="tbd" type="xs:boolean" minOccurs="0" />
+                      <xs:element name="surf_area" type="xs:int" minOccurs="0" />
+                      <xs:element name="surf_area_sample" type="xs:boolean" minOccurs="0" />
+                      <xs:element name="depth" type="xs:int" minOccurs="0" />
+                      <xs:element name="depth_sample" type="xs:boolean" minOccurs="0" />
+                      <xs:element name="area_depth_deter" type="xs:string" minOccurs="0" />
+                      <xs:element name="geology" type="xs:string" minOccurs="0" />
+                      <xs:element name="depth_shallow_grdwater" type="xs:int" minOccurs="0" />
+                      <xs:element name="nbr_water_wells" type="xs:int" minOccurs="0" />
+                      <xs:element name="near_water_wells" type="xs:int" minOccurs="0" />
+                      <xs:element name="near_surf_waters" type="xs:int" minOccurs="0" />
+                      <xs:element name="near_wetlands" type="xs:int" minOccurs="0" />
+                      <xs:element name="near_livestock" type="xs:int" minOccurs="0" />
+                      <xs:element name="near_occupied_bldgs" type="xs:int" minOccurs="0" />
+                      <xs:element name="add_details" type="xs:string" minOccurs="0" />
+                      <xs:element name="oil_spilled" type="xs:int" minOccurs="0" />
+                      <xs:element name="oil_recovered" type="xs:int" minOccurs="0" />
+                      <xs:element name="cond_spilled" type="xs:int" minOccurs="0" />
+                      <xs:element name="cond_recovered" type="xs:int" minOccurs="0" />
+                      <xs:element name="form_spilled" type="xs:int" minOccurs="0" />
+                      <xs:element name="form_recovered" type="xs:int" minOccurs="0" />
+                      <xs:element name="drilling_spilled" type="xs:int" minOccurs="0" />
+                      <xs:element name="drilling_recovered" type="xs:int" minOccurs="0" />
+                      <xs:element name="frac_spilled" type="xs:int" minOccurs="0" />
+                      <xs:element name="frac_recovered" type="xs:int" minOccurs="0" />
+                      <xs:element name="other_spilled" type="xs:int" minOccurs="0" />
+                      <xs:element name="other_recovered" type="xs:int" minOccurs="0" />
+                      <xs:element name="other_spilled_specify" type="xs:string" minOccurs="0" />
+                      <xs:element name="nbr_springs" type="xs:int" minOccurs="0" />
+                      <xs:element name="surf_area_tbd_27" type="xs:boolean" minOccurs="0" />
+                      <xs:element name="depth_tbd_27" type="xs:boolean" minOccurs="0" />
+                      <xs:element name="sludge_spilled" type="xs:int" minOccurs="0" />
+                      <xs:element name="sludge_recovered" type="xs:int" minOccurs="0" />
+                      <xs:element name="oil_unknown" type="xs:boolean" minOccurs="0" />
+                      <xs:element name="cond_unknown" type="xs:boolean" minOccurs="0" />
+                      <xs:element name="form_unknown" type="xs:boolean" minOccurs="0" />
+                      <xs:element name="drilling_unknown" type="xs:boolean" minOccurs="0" />
+                      <xs:element name="frac_unknown" type="xs:boolean" minOccurs="0" />
+                      <xs:element name="sludge_unknown" type="xs:boolean" minOccurs="0" />
+                      <xs:element name="none_near_water_wells" type="xs:boolean" minOccurs="0" />
+                      <xs:element name="none_near_surf_waters" type="xs:boolean" minOccurs="0" />
+                      <xs:element name="none_near_wetlands" type="xs:boolean" minOccurs="0" />
+                      <xs:element name="none_near_livestock" type="xs:boolean" minOccurs="0" />
+                      <xs:element name="none_near_occupied_bldgs" type="xs:boolean" minOccurs="0" />
+                      <xs:element name="none_nbr_springs" type="xs:boolean" minOccurs="0" />
+                      <xs:element name="surf_area_length" type="xs:int" minOccurs="0" />
+                      <xs:element name="surf_area_width" type="xs:int" minOccurs="0" />
+                      <xs:element name="other_ep_waste" type="xs:string" minOccurs="0" />
+                      <xs:element name="surf_area_depth_inch" type="xs:int" minOccurs="0" />
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+                <xs:element name="spillCorr" minOccurs="0" maxOccurs="unbounded">
+                  <xs:annotation>
+                    <xs:appinfo>
+                      <msdata:Relationship name="spillCorr_ix" msdata:parent="Form" msdata:child="spillCorr" msdata:parentkey="doc_num" msdata:childkey="doc_num" />
+                    </xs:appinfo>
+                  </xs:annotation>
+                  <xs:complexType>
+                    <xs:sequence>
+                      <xs:element name="doc_num" type="xs:int" minOccurs="0" />
+                      <xs:element name="rpt_num" type="xs:int" minOccurs="0" />
+                      <xs:element name="rpt_date" type="xs:dateTime" minOccurs="0" />
+                      <xs:element name="human_err" type="xs:boolean" minOccurs="0" />
+                      <xs:element name="equip_fail" type="xs:boolean" minOccurs="0" />
+                      <xs:element name="historical" type="xs:boolean" minOccurs="0" />
+                      <xs:element name="other_spill" type="xs:boolean" minOccurs="0" />
+                      <xs:element name="other_spill_info" type="xs:string" minOccurs="0" />
+                      <xs:element name="root_cause" type="xs:string" minOccurs="0" />
+                      <xs:element name="preventative" type="xs:string" minOccurs="0" />
+                      <xs:element name="excav_soil" type="xs:int" minOccurs="0" />
+                      <xs:element name="offsite" type="xs:boolean" minOccurs="0" />
+                      <xs:element name="onsite" type="xs:boolean" minOccurs="0" />
+                      <xs:element name="other_soil" type="xs:boolean" minOccurs="0" />
+                      <xs:element name="other__soil_dispo" type="xs:string" minOccurs="0" />
+                      <xs:element name="vol_grnd_water_rem" type="xs:int" minOccurs="0" />
+                      <xs:element name="vol_surf_water_rem" type="xs:int" minOccurs="0" />
+                      <xs:element name="equip_fail_name" type="xs:string" minOccurs="0" />
+                    </xs:sequence>
+                  </xs:complexType>
+                </xs:element>
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+    </xs:element>
+  </xs:schema>
+  <Form>
+    <doc_num>400639576</doc_num>
+    <form_num>19   </form_num>
+    <receive_date>2014-07-11T15:35:37.673-06:00</receive_date>
+    <operator_num>8960</operator_num>
+    <company_name>BONANZA CREEK ENERGY OPERATING COMPANY LLC        </company_name>
+    <address>410 17TH STREET  SUITE #1400                      </address>
+    <city>DENVER                        </city>
+    <state>CO</state>
+    <zip>80202     </zip>
+    <first_name>Brian          </first_name>
+    <last_name>Dodek               </last_name>
+    <area_code>720</area_code>
+    <phone_num>2256653        </phone_num>
+    <fax_area_code>303</fax_area_code>
+    <fax_num>4835486        </fax_num>
+    <submit_name>Brian Dodek              </submit_name>
+    <submit_title>Environmental Specialist </submit_title>
+    <submit_date>2014-07-11T15:35:37.673-06:00</submit_date>
+    <approv_name xml:space="preserve">                         </approv_name>
+    <approv_title xml:space="preserve">                         </approv_title>
+    <status_date>2014-07-11T15:35:37.657-06:00</status_date>
+    <status>in process</status>
+    <user_name>bdodek                                            </user_name>
+    <data_entry_date>2014-07-03T16:17:29.03-06:00</data_entry_date>
+    <data_entry_op>bdodek</data_entry_op>
+    <email>bdodek@bonanzacrk.com</email>
+    <version>0.00000</version>
+    <contact_email>bdodek@bonanzacrk.com</contact_email>
+    <reason />
+    <last_user>bdodek</last_user>
+    <last_update_user>bdodek</last_update_user>
+    <last_update_date>2014-07-11T15:35:35.36-06:00</last_update_date>
+    <trkg_num>400639576</trkg_num>
+    <form19>
+      <doc_num>400639576</doc_num>
+      <cogcc_rep xml:space="preserve">                         </cogcc_rep>
+      <incident_date>2014-07-02T00:00:00-06:00</incident_date>
+      <facility_type>TANK BATTERY</facility_type>
+      <well_name />
+      <well_num xml:space="preserve">               </well_num>
+      <api_state_code xml:space="preserve">  </api_state_code>
+      <county_code xml:space="preserve">   </county_code>
+      <api_seq_num xml:space="preserve">     </api_seq_num>
+      <sidetrack_num xml:space="preserve">  </sidetrack_num>
+      <material xml:space="preserve">                                   </material>
+      <county>WELD           </county>
+      <field_name xml:space="preserve">                              </field_name>
+      <qtrqtr>SWSW  </qtrqtr>
+      <sec>36</sec>
+      <twp>6N    </twp>
+      <range>62W    </range>
+      <meridian>6</meridian>
+      <contained>Y</contained>
+      <area_unit xml:space="preserve">     </area_unit>
+      <land_use>NON-CROP LAND                      </land_use>
+      <weather>75 degrees, partly cloudy          </weather>
+      <vert_unit xml:space="preserve">     </vert_unit>
+      <soil_desc xml:space="preserve">                                                  </soil_desc>
+      <buildings>0</buildings>
+      <livestock>0</livestock>
+      <spill_desc>A drain valve on a production tank was left open, resulting in a 150bbl oil release into lined, steel, secondary containment. Crews have transfered the oil back to the production tank and removed the impacted gravel from the containment.  The site is back in production.</spill_desc>
+      <imm_response />
+      <emer_pits />
+      <extent />
+      <proposed />
+      <preventative />
+      <facility_name xml:space="preserve">                                   </facility_name>
+      <facility_num xml:space="preserve">               </facility_num>
+      <facility_id>420123</facility_id>
+      <trkg_num>400639576</trkg_num>
+      <spill_type>true</spill_type>
+      <discovery_date>2014-07-02T00:00:00-06:00</discovery_date>
+      <facility_type_other />
+      <lat>40.436433</lat>
+      <long>-104.278752</long>
+      <city />
+      <surface_owner>STATE</surface_owner>
+      <surface_owner_other />
+      <spill_other_desc />
+      <spill_other_desc2 />
+      <spill_other_desc3 />
+      <waters_state>0</waters_state>
+      <public_byway>0</public_byway>
+      <surf_water_supp>0</surf_water_supp>
+      <site_remed>true</site_remed>
+      <_x0032_7_approved>false</_x0032_7_approved>
+      <report_type>I</report_type>
+      <nonfacility>false</nonfacility>
+      <land_use_other />
+      <spill_oil_volume>&gt;=100</spill_oil_volume>
+      <spill_condensate_volume>0</spill_condensate_volume>
+      <spill_formation_volume>0</spill_formation_volume>
+      <spill_drilling_volume>0</spill_drilling_volume>
+      <spill_frac_volume>0</spill_frac_volume>
+      <contained_morethan5>true</contained_morethan5>
+      <init_spill_comment />
+      <init_with_subsequent>true</init_with_subsequent>
+      <exist_ref_api>false</exist_ref_api>
+      <exist_ref_facility_id>true</exist_ref_facility_id>
+      <no_exist_ref_facility_id>false</no_exist_ref_facility_id>
+      <spill_sludge_volume>0</spill_sludge_volume>
+      <report_date>2014-07-03T16:17:29.327-06:00</report_date>
+      <comment_req_closure />
+      <other_ep_waste />
+    </form19>
+    <form_attach>
+      <doc_num>400639576</doc_num>
+      <attach_doc_num>400639576</attach_doc_num>
+      <name>FORM 19 SUBMITTED</name>
+      <doc_desc>400639576.pdf</doc_desc>
+    </form_attach>
+    <form_attach>
+      <doc_num>400639576</doc_num>
+      <attach_doc_num>400639612</attach_doc_num>
+      <name>SITE MAP</name>
+      <doc_desc>State Antelope 11-14-1HZ Location Drawing 7-2-2014.pdf</doc_desc>
+      <file_size>134186</file_size>
+    </form_attach>
+    <contact_log>
+      <doc_num>400639576</doc_num>
+      <line_item>1</line_item>
+      <detail_type>SPILL                    </detail_type>
+      <notify_date>2014-07-03T00:00:00-06:00</notify_date>
+      <party>Weld County                   </party>
+      <contact>Roy Rudisil              </contact>
+      <details>Notified of release via email</details>
+      <phone_num>on file        </phone_num>
+    </contact_log>
+    <contact_log>
+      <doc_num>400639576</doc_num>
+      <line_item>2</line_item>
+      <detail_type>SPILL                    </detail_type>
+      <notify_date>2014-07-03T00:00:00-06:00</notify_date>
+      <party>State Land Board              </party>
+      <contact>Steve Freese             </contact>
+      <details>Notified of release</details>
+      <phone_num>on file        </phone_num>
+    </contact_log>
+    <contact_log>
+      <doc_num>400639576</doc_num>
+      <line_item>3</line_item>
+      <detail_type>SPILL                    </detail_type>
+      <notify_date>2014-07-03T00:00:00-06:00</notify_date>
+      <party>COGCC                         </party>
+      <details>Notified Via eForm</details>
+      <phone_num>on file        </phone_num>
+    </contact_log>
+    <spillDet>
+      <doc_num>400639576</doc_num>
+      <rpt_num>1</rpt_num>
+      <rpt_date>2014-07-11T00:00:00-06:00</rpt_date>
+      <withinberm>1</withinberm>
+      <emerpit>0</emerpit>
+      <soil>false</soil>
+      <groundwater>false</groundwater>
+      <surf_water>false</surf_water>
+      <dry_drain>false</dry_drain>
+      <tbd>false</tbd>
+      <surf_area_sample>false</surf_area_sample>
+      <depth>0</depth>
+      <depth_sample>false</depth_sample>
+      <area_depth_deter>The release occurred within lined, steel, secondary containment.  All fluids were transfered back to the production tank and the impacted gravel ballast was removed and hauled to the CSI landfill in Bennett, Colorado.</area_depth_deter>
+      <geology>NA.</geology>
+      <depth_shallow_grdwater>100</depth_shallow_grdwater>
+      <nbr_water_wells>0</nbr_water_wells>
+      <oil_spilled>150</oil_spilled>
+      <oil_recovered>150</oil_recovered>
+      <cond_spilled>0</cond_spilled>
+      <cond_recovered>0</cond_recovered>
+      <form_spilled>0</form_spilled>
+      <form_recovered>0</form_recovered>
+      <drilling_spilled>0</drilling_spilled>
+      <drilling_recovered>0</drilling_recovered>
+      <frac_spilled>0</frac_spilled>
+      <frac_recovered>0</frac_recovered>
+      <surf_area_tbd_27>false</surf_area_tbd_27>
+      <depth_tbd_27>false</depth_tbd_27>
+      <sludge_spilled>0</sludge_spilled>
+      <sludge_recovered>0</sludge_recovered>
+      <oil_unknown>false</oil_unknown>
+      <cond_unknown>false</cond_unknown>
+      <form_unknown>false</form_unknown>
+      <drilling_unknown>false</drilling_unknown>
+      <frac_unknown>false</frac_unknown>
+      <sludge_unknown>false</sludge_unknown>
+      <none_near_water_wells>true</none_near_water_wells>
+      <none_near_surf_waters>true</none_near_surf_waters>
+      <none_near_wetlands>true</none_near_wetlands>
+      <none_near_livestock>true</none_near_livestock>
+      <none_near_occupied_bldgs>true</none_near_occupied_bldgs>
+      <none_nbr_springs>true</none_nbr_springs>
+      <surf_area_length>0</surf_area_length>
+      <surf_area_width>0</surf_area_width>
+    </spillDet>
+    <spillCorr>
+      <doc_num>400639576</doc_num>
+      <rpt_num>1</rpt_num>
+      <rpt_date>2014-07-11T00:00:00-06:00</rpt_date>
+      <human_err>true</human_err>
+      <equip_fail>false</equip_fail>
+      <historical>false</historical>
+      <other_spill>false</other_spill>
+      <root_cause>Operator left a drain valve open. </root_cause>
+      <preventative>Gave operator training to conduct visual verification if valves onsite.</preventative>
+      <excav_soil>0</excav_soil>
+      <offsite>false</offsite>
+      <onsite>false</onsite>
+      <other_soil>false</other_soil>
+      <vol_grnd_water_rem>0</vol_grnd_water_rem>
+      <vol_surf_water_rem>0</vol_surf_water_rem>
+    </spillCorr>
+  </Form>
+</_x0034_00639576>
